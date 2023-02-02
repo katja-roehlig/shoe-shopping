@@ -1,0 +1,10 @@
+@use "../abstracts/" as *;
+
+.heading {
+  font-size: 1.8rem;
+  font-family: "Quicksand__bold";
+}
+.text {
+  line-height: 2.1rem;
+  color: $text-color;
+}

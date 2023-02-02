@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  margin: 0 auto;
+  padding: 0 0;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: Quicksand;
+  font-size: 1.4rem;
+}
+
+/*fonts ********************************************************************/
+@font-face {
+  font-family: "Quicksand";
+  src: url(../assets/fonts/Quicksand-VariableFont_wght.woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Quicksand__reg";
+  src: url(../assets/fonts/Quicksand-VariableFont_wght.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Quicksand__bold";
+  src: url(../assets/fonts/Quicksand-VariableFont_wght.woff2);
+  font-weight: 600;
+}
+.card__container {
+  display: flex;
+  margin: 3rem;
+  gap: 4rem;
+  position: relative;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+}
+
+.card {
+  border-radius: 2rem;
+  overflow: hidden;
+  height: 85vh;
+  position: relative;
+  background-color: white;
+}
+
+.content__container {
+  padding: 1.5rem;
+}
+
+.image__container {
+  width: 100%;
+  height: 38%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.image__container--asics {
+  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url(https://images.unsplash.com/photo-1560072810-1cffb09faf0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+.image__container--adidas {
+  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url(https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+.image__container--newbalance {
+  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url(https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-family: "Quicksand__bold";
+}
+
+.text {
+  line-height: 2.1rem;
+  color: #777676;
+}
+
+.order__container {
+  background-color: #f5f5f5;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+
+.price {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-block: 1rem;
+  font-size: 1.7rem;
+  font-family: "Quicksand__reg";
+}
+
+.select__container {
+  color: #777676;
+  display: flex;
+  gap: 2rem;
+}
+
+.color__container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.circle {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+}
+.circle--red {
+  background-color: red;
+}
+.circle--blue {
+  background-color: blue;
+}
+.circle--black {
+  background-color: black;
+}
+.circle--olive-black {
+  background-image: linear-gradient(90deg, rgb(156, 165, 95) 50%, black 50%);
+}
+.circle--blue-black {
+  background-image: linear-gradient(90deg, rgb(71, 157, 227) 50%, black 50%);
+}
+.circle--pink-black {
+  background-image: linear-gradient(90deg, rgb(217, 87, 139) 50%, black 50%);
+}
+.circle--red-white {
+  background-image: linear-gradient(90deg, red 50%, white 50%);
+  box-shadow: 0 0 2px grey;
+}
+.circle--black-white {
+  background-image: linear-gradient(90deg, black 50%, white 50%);
+  box-shadow: 0 0 2px grey;
+}
+
+.btn-add {
+  all: unset;
+  background-color: rgb(75, 84, 208);
+  padding-block: 1rem;
+  font-size: 1.6rem;
+  font-family: "Quicksand__reg";
+  color: #ffffff;
+  text-align: center;
+  border-radius: 0.5rem;
+  margin-block: 2.3rem 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */

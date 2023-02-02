@@ -1,0 +1,74 @@
+@use "../abstracts/" as *;
+
+.order__container {
+  background-color: $background-color;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+
+.price {
+  background-color: $text-color-light;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-block: 1rem;
+  font-size: 1.7rem;
+  font-family: "Quicksand__reg";
+}
+
+.select__container {
+  color: $text-color;
+  display: flex;
+  gap: 2rem;
+}
+.color__container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+.circle {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+
+  &--red {
+    background-color: red;
+  }
+  &--blue {
+    background-color: blue;
+  }
+  &--black {
+    background-color: black;
+  }
+  &--olive-black {
+    background-image: linear-gradient(90deg, rgb(156, 165, 95) 50%, black 50%);
+  }
+  &--blue-black {
+    background-image: linear-gradient(90deg, rgb(71, 157, 227) 50%, black 50%);
+  }
+  &--pink-black {
+    background-image: linear-gradient(90deg, rgb(217, 87, 139) 50%, black 50%);
+  }
+  &--red-white {
+    background-image: linear-gradient(90deg, red 50%, white 50%);
+    box-shadow: 0 0 2px grey;
+  }
+  &--black-white {
+    background-image: linear-gradient(90deg, black 50%, white 50%);
+    box-shadow: 0 0 2px grey;
+  }
+}
+
+.btn-add {
+  all: unset;
+  background-color: $button-color;
+  padding-block: 1rem;
+  font-size: 1.6rem;
+  font-family: "Quicksand__reg";
+  color: $text-color-light;
+  text-align: center;
+  border-radius: 0.5rem;
+  margin-block: 2.3rem 1.5rem;
+}
