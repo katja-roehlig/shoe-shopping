@@ -14,7 +14,6 @@ body {
   font-size: 1.4rem;
 }
 
-/*fonts ********************************************************************/
 @font-face {
   font-family: "Quicksand";
   src: url(../assets/fonts/Quicksand-VariableFont_wght.woff2);
@@ -42,11 +41,13 @@ body {
 }
 
 .card {
+  width: 30vw;
   border-radius: 2rem;
   overflow: hidden;
-  height: 85vh;
+  height: 81vh;
   position: relative;
   background-color: white;
+  box-shadow: 0 4px 10px 2px rgba(211, 211, 211, 0.393);
 }
 
 .content__container {
@@ -58,6 +59,25 @@ body {
   height: 38%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  position: relative;
+}
+.image__container--info {
+  background-color: rgba(255, 255, 255, 0.698);
+  display: inline;
+  font-size: 1.1rem;
+  font-family: "Quicksand__bold";
+  letter-spacing: 0.1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+  position: absolute;
+  right: 3%;
+}
+.image__container--fotograf {
+  font-size: 1rem;
+  color: #777676;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 .image__container--asics {
   background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url(https://images.unsplash.com/photo-1560072810-1cffb09faf0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -72,6 +92,7 @@ body {
 .heading {
   font-size: 1.8rem;
   font-family: "Quicksand__bold";
+  margin-top: 0.5rem;
 }
 
 .text {
@@ -85,6 +106,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 1.5rem;
+  margin-top: 2.8rem;
 }
 
 .price {
@@ -99,7 +121,20 @@ body {
 .select__container {
   color: #777676;
   display: flex;
-  gap: 2rem;
+  align-items: center;
+  position: relative;
+}
+.select__container--quantity {
+  position: absolute;
+  left: 50%;
+}
+
+.order-size {
+  border: none;
+  padding: 0.2rem 3rem 0.2rem 0.2rem;
+  border-radius: 0.2rem;
+  font-family: "Quicksand";
+  margin-left: 1.5rem;
 }
 
 .color__container {
@@ -115,10 +150,10 @@ body {
   border-radius: 2rem;
 }
 .circle--red {
-  background-color: red;
+  background-color: rgb(196, 80, 80);
 }
 .circle--blue {
-  background-color: blue;
+  background-color: rgb(37, 80, 180);
 }
 .circle--black {
   background-color: black;
