@@ -51,7 +51,7 @@ body {
 }
 
 .content__container {
-  padding: 1.5rem;
+  padding: 1.6rem;
 }
 
 .image__container {
@@ -80,13 +80,13 @@ body {
   left: 3%;
 }
 .image__container--asics {
-  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url(https://images.unsplash.com/photo-1560072810-1cffb09faf0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url("../assets/images/maksim-larin-jZyacqaR4iI-unsplash.jpg");
 }
 .image__container--adidas {
-  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url(https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url("../assets/images/daniel-storek-JM-qKEd1GMI-unsplash.jpg");
 }
 .image__container--newbalance {
-  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url(https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  background-image: linear-gradient(transparent, transparent 60%, rgba(255, 255, 255, 0.996) 97%), url("../assets/images/felipepelaquim-6zO5VKogoZE-unsplash.jpg");
 }
 
 .heading {
